@@ -1,0 +1,48 @@
+{
+  "name": "@mayahq/testmod-one",
+  "version": "1.0.0",
+  "description": "Maya module to test mayadev",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayahq/testmod-one.git"
+  },
+  "author": "dush-t",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayahq/mayadev/issues"
+  },
+  "homepage": "https://github.com/mayahq/testmod-one#readme",
+  "nodepath": "src/nodes",
+  "nodeRedModuleName": "testmod-one",
+  "node-red": {
+    "nodes": {
+      "test-one": "src/nodes/testOne/testOne.node.js",
+      "test-two": "src/nodes/testTwo/testTwo.node.js"
+    }
+  },
+  "mayaDetails": {
+    "name": "testmod-one",
+    "version": "1.0.0",
+    "description": "Maya module to test mayadev",
+    "author": "dush-t",
+    "type": "git",
+    "needsUserProfile": true,
+    "configType": {
+      "name": "Gmail Authentication",
+      "oid": "6011ce4e6d344901e18351c8"
+    },
+    "thumbnail": "",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mayahq/testmod-one.git"
+    },
+    "origin": {
+      "moduleId": "61f3b156f36d03001b791685"
+    }
+  },
+  "dependencies": {
+    "@mayahq/module-sdk": "^0.4.11"
+  }
+}
