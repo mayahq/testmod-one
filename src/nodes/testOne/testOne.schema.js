@@ -27,6 +27,7 @@ class TestOne extends Node {
     }
 
     async onMessage(msg, vals) {
+        console.log('hehe')
         // Handle the message. The returned value will
         // be sent as the message to any further nodes.
 
